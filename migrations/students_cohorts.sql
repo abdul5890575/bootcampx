@@ -1,9 +1,9 @@
--- CREATE TABLE cohorts (
---     id SERIAL PRIMARY KEY NOT NULL, 
---     name VARCHAR(225) NOT NULL,
---     start_date DATE,
---     end_date DATE
--- );
+CREATE TABLE cohorts (
+    id SERIAL PRIMARY KEY NOT NULL, 
+    name VARCHAR(225) NOT NULL,
+    start_date DATE,
+    end_date DATE
+);
 
 CREATE TABLE students (
     id SERIAL PRIMARY KEY NOT NULL, 
